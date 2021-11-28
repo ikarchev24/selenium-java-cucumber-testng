@@ -1,6 +1,6 @@
 Feature: User wants to be able to leave a feedback for specific product
 
-  Scenario: User writes a product review for Mac
+  Scenario: Verify user is able to write a review for a product and is able to see it after admin approves it
     Given the user opens specific product page
     When the user writes a review for that product
     And when an admin logins to the backend
